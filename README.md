@@ -1,3 +1,3 @@
 # Web-tekniikat
 
-Tämä on repo kurssitehtävää varten
+Tämä on repo kurssitehtäviä varten
