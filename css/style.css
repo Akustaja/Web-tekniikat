@@ -1,0 +1,51 @@
+/* Palette */
+/* General style + removing default values */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* Grid layout */
+#container {
+  display: grid;
+  grid-template-columns: auto 60vw auto;
+  grid-template-rows: 8vh 92vh;
+}
+
+/* Sections */
+header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: #344966;
+  padding: 5px;
+}
+
+article {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #B4CDED;
+  padding: 5px;
+}
+
+/* Sub-Sections */
+.form {
+  margin: 15px;
+}
+
+textarea {
+  display: block;
+}
+
+#important + p {
+  display: inline;
+}
+#important + p + button {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
