@@ -45,7 +45,7 @@ header{
 }
 
 
-article{
+article, #info{
     grid-column: 2/4;
     grid-row: 2/4;
     background-color: $light;
@@ -112,27 +112,27 @@ aside{
     }
 }
 
+#info{
+    padding: 35px;
+    p{
+        margin: 50px 0px;
+        >a{
+            color: $darker;
+        }
+    }
+}
+
 .hide{
     display: none;
 }
 
-.add{
-    display: none;
-}
+
 
 /* Responsiveness */
 
 @media screen and (max-width: 640px) {
-    .add{
-        display: inline;
-    }
-
-    article{
+    article, #info{
         grid-column: 1/5;
-
-        .form{
-            display: none;
-        }
 
         .notes{
 

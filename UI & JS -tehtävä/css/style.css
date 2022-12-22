@@ -35,7 +35,7 @@ header span {
   cursor: pointer;
 }
 
-article {
+article, #info {
   grid-column: 2/4;
   grid-row: 2/4;
   background-color: #B4CDED;
@@ -93,26 +93,26 @@ aside > a {
   margin: 3px;
 }
 
-.hide {
-  display: none;
+#info {
+  padding: 35px;
+}
+#info p {
+  margin: 50px 0px;
+}
+#info p > a {
+  color: #0D1821;
 }
 
-.add {
+.hide {
   display: none;
 }
 
 /* Responsiveness */
 @media screen and (max-width: 640px) {
-  .add {
-    display: inline;
-  }
-  article {
+  article, #info {
     grid-column: 1/5;
   }
-  article .form {
-    display: none;
-  }
-  article .notes > span {
+  article .notes > span, #info .notes > span {
     width: 74vw;
     margin: 2px auto;
   }
