@@ -92,6 +92,9 @@ aside > a {
 .notes > span h3 {
   margin: 3px;
 }
+.notes .highlight {
+  border: 3px solid red;
+}
 
 #info {
   padding: 35px;
