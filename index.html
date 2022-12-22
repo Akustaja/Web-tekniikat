@@ -6,31 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css/style.css">
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
     <title>Web-tekniikat, UI- ja JS-harjoitus</title>
 </head>
 <body>
     <div id="container">
-        <header></header>
+        <header>
+            <span class="material-symbols-outlined">
+                sticky_note_2
+            </span>
+            <span class="material-symbols-outlined add">
+                add
+            </span>
+            <span class="material-symbols-outlined">
+                info
+            </span>
+        </header>
         <article>
             <div class="form">
-                <p>Name</p>
+                <h3>Name</h3>
                 <input type="text" name="" id="nameInput">
 
-                <p>Note</p>
+                <h3>Note</h3>
                 <textarea name="" id="noteInput" cols="30" rows="10"></textarea>
 
                 <input type="checkbox" name="" id="important"> 
-                <p>Important</p>
-                
+                <h3>Important</h3>
+
                 <button>Add note</button>
             </div>
 
             <div class="notes">
-
+                <span><h3>Test</h3>
+                    This is a test note</span>
+                <span>This is a test note</span>
+                <span><h3>Test</h3>
+                    This is a test note and i am writing a lot in this one to test wrapping and resizing two lines fit well but how about a third will it overflow or resize</span>
+                <span>This is a test note</span>
+                <span>This is a test note</span>
+                <span>This is a test note</span>
             </div>
+            
 
         </article>
+
+        <aside>
+            <img src="images/notes.png" alt="" srcset="">
+            <a href="https://pixabay.com/vectors/notes-office-pages-papers-print-150587/">Image: Pixabay</a>
+        </aside>
     </div>
 </body>
 </html>
