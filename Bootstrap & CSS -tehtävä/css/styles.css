@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: #07d3c5;
+}
+
+.nav {
+  background-color: #539987;
+  height: 7.5vh;
+}
+
+.row:first-child, .row:last-child {
+  height: 7.5vh;
+  width: 100vw;
+  background-color: #539987;
+  color: #000000;
+}
+
+.content {
+  height: 85vh;
+  width: 100vw;
+  background-color: #7affc7;
+  color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */
